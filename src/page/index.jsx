@@ -23,6 +23,7 @@ class App extends React.Component {
                   //主要是为了传递嵌套路由到子组件main3
                   //主要是为了传递嵌套路由到子组件main4
                   //主要是为了传递嵌套路由到子组件main5
+                  //主要是为了传递嵌套路由到子组件main6
                   //类似于 <User {...props} routes={routes} />
                   <item.component {...props} routers={item.children} />
 
