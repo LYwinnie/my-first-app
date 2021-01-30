@@ -17,6 +17,7 @@ class App extends React.Component {
               return <Route key={item.name} path={item.path} exact={item.exact}
                 render={props => (
                   //主要是为了传递嵌套路由到子组件 
+                  //主要是为了传递嵌套路由到子组件main1 
                   //类似于 <User {...props} routes={routes} />
                   <item.component {...props} routers={item.children} />
 
