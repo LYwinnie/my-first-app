@@ -18,6 +18,7 @@ class App extends React.Component {
                 render={props => (
                   //主要是为了传递嵌套路由到子组件 
                   //主要是为了传递嵌套路由到子组件main1 
+                  //主要是为了传递嵌套路由到子组ly1
                   //类似于 <User {...props} routes={routes} />
                   <item.component {...props} routers={item.children} />
 
